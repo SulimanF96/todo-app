@@ -1,0 +1,35 @@
+
+div{
+  margin: 18px auto;
+  background: white;
+  color: #757575;
+  width: 40%;
+  padding: 14px;
+  border-left: solid 4px red;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  margin-top: none;
+}
+
+.done{
+  border-left: solid 4px #4caf50;
+  text-decoration: line-through;
+}
+
+.done-icon{
+  color: #4caf50;
+  cursor: pointer;
+  margin-right: 19px;
+}
+
+.delete-icon{
+  color: red;
+  cursor: pointer
+}
+
+

@@ -1,0 +1,7 @@
+<div [ngClass]="{'done': todo.done }">
+  <h5>{{todo.name}}</h5>
+  <ul>
+    <li><span class="material-icons done-icon" *ngIf="!todo.done" (click)="makeTodoDone()">done</span></li>
+    <li><span class="material-icons delete-icon" (click)="deleteToDo()">delete</span></li>
+  </ul>
+</div>
